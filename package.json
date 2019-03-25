@@ -1,0 +1,19 @@
+{
+  "name": "calculatornodejs",
+  "version": "1.0.0",
+  "description": "Simple Calculator in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardoibanez/CalculatorNodeJS.git"
+  },
+  "author": "leonardoibanez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardoibanez/CalculatorNodeJS/issues"
+  },
+  "homepage": "https://github.com/leonardoibanez/CalculatorNodeJS#readme"
+}
