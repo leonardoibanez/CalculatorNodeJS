@@ -1,11 +1,11 @@
 'use strict';
 
-var calculator = require('./app/calculator');
+import { add, minus, multiply, divide } from './app/calculator';
 
 var a = 3;
 var b = 5;
 
-console.log(`Add ${a} + ${b} = ${calculator.add(a,b)}`);
-console.log(`Minus ${a} + ${b} = ${calculator.minus(a,b)}`);
-console.log(`Multiply ${a} + ${b} = ${calculator.multiply(a,b)}`);
-console.log(`Divide ${a} + ${b} = ${calculator.divide(a,b)}`);
+console.log(`Add ${a} + ${b} = ${add(a,b)}`);
+console.log(`Minus ${a} + ${b} = ${minus(a,b)}`);
+console.log(`Multiply ${a} + ${b} = ${multiply(a,b)}`);
+console.log(`Divide ${a} + ${b} = ${divide(a,b)}`);

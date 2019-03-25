@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Simple Calculator in NodeJS",
   "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -16,8 +20,5 @@
     "url": "https://github.com/leonardoibanez/CalculatorNodeJS/issues"
   },
   "homepage": "https://github.com/leonardoibanez/CalculatorNodeJS#readme",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.0.2"
-  }
+  "devDependencies": {}
 }
